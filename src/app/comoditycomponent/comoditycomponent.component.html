@@ -1,0 +1,32 @@
+<table>
+  <thead>
+     <tr>
+       <th></th>
+       <th>Type</th>
+       <th>Flight</th>
+       <th>Transcation</th>
+       <th>Partner</th>
+       <th>Activity</th>
+       <th>Miles</th>
+     </tr>
+   </thead>
+  
+    
+ 
+       <tbody>
+       <tr *ngFor="let dl of datalist" >
+           <td><input type="checkbox"></td>
+           <td>{{ dl.Type }}</td>
+           <td>{{ dl.Flight }}</td>
+           <td>{{ dl.Transcation }}</td>
+           <td>{{ dl.Partner }}</td>
+           <td>{{ dl.Activity }}</td>
+           <td>{{ dl.Miles }}</td>
+ 
+       </tr>
+ 
+           
+       
+    
+   </tbody>
+ </table>

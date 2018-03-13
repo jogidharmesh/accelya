@@ -1,0 +1,15 @@
+<h1>PLEASE OPEN WINDOWS</h1>
+
+
+
+<button (click)="showDialog = !showDialog" class="btn">Open</button>
+
+<app-dialog [(visible)]="showDialog">
+	<app-comoditycomponent></app-comoditycomponent>
+	<app-filterdatacomponent></app-filterdatacomponent>
+	
+	<!-- <button (click)="showDialog = !showDialog" class="btn">Close</button> -->
+</app-dialog>
+<!-- <app-dialog [(visible)]="showDialog">
+	
+</app-dialog> -->
